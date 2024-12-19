@@ -1,4 +1,4 @@
-FROM node:23-alpine3.19 AS build
+FROM node:23-alpine3.20 AS build
 WORKDIR /nsse-frontend
 COPY package*.json ./
 RUN npm ci --silent --only=production
