@@ -57,3 +57,5 @@ Assim que cada um dos cadastros acima forem acontecendo as migrations vão sendo
 ``` 
 dotnet ef database update
 ```
+
+Copyright: 2025
